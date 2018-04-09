@@ -167,4 +167,25 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
       </plugin>
     </plugins>
   </build>
+  
+  <repositories>
+    <repository>
+      <id>opendaylight-mirror</id>
+      <url>https://nexus.opendaylight.org/content/repositories/public/</url>
+    </repository>
+    <repository>
+      <id>opendaylight-snapshot</id>
+      <url>https://nexus.opendaylight.org/content/repositories/opendaylight.snapshot/</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>opendaylight-mirror</id>
+      <url>https://nexus.opendaylight.org/content/repositories/public/</url>
+    </pluginRepository>
+    <pluginRepository>
+      <id>opendaylight-snapshot</id>
+      <url>https://nexus.opendaylight.org/content/repositories/opendaylight.snapshot/</url>
+    </pluginRepository>
+  </pluginRepositories>
 </project>
