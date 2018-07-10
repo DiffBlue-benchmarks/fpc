@@ -1,2 +1,0 @@
-buildCmd: cd api; mvn install -DskipTests; cd impl; mvn install -DskipTests; cd features; mvn install -DskipTests; mvn clean; mvn compile
-testCmd: cd api; mvn install -DskipTests; cd impl; mvn install -DskipTests; cd features; mvn install -DskipTests; mvn clean; mvn clean; mvn test
